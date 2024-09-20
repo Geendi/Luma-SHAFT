@@ -8,17 +8,17 @@ https://magento.softwaretestingboard.com/
 
 ## Structure
 
-## Main Frameworks
--Shafe Engine
--Selenium
--Java
--TestNG
--Maven
--Allure Reports
+ *Main Frameworks*
+- *Shafe Engine*
+- *Selenium*
+- *Java*
+- *TestNG*
+- *Maven*
+- *Allure Reports*
 
-## Project Design
--Page Object Model (POM) Design Pattern.
--Data Driven Framework
+*Project Design*
+- *Page Object Model (POM) Design Pattern*
+- *Data Driven Framework*
 
 ## Features
 
