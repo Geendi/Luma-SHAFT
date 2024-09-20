@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 28' test cases in the current suite                                        
+                                    Test Method: 'tests.RegistrationTest.testRegisterWithExistingCredentials'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:19.0491 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:20.0655 PM
+[ReportManager] Get text "Create New Customer Account" from "By.cssSelector: span.base". @20-09-2024 14:52:20.0791 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:20.0922 PM
+[ReportManager] Type "Ahmed" into "First Name*". @20-09-2024 14:52:20.0995 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:21.0120 PM
+[ReportManager] Type "Ibrahim" into "Last Name*". @20-09-2024 14:52:21.0198 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:21.0326 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:21.0431 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:21.0564 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:21.0657 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:21.0783 PM
+[ReportManager] Type "gen@10203040" into "Confirm Password*". @20-09-2024 14:52:21.0874 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:22.0050 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:24.0516 PM
+[ReportManager] Get text "There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:52:24.0834 PM

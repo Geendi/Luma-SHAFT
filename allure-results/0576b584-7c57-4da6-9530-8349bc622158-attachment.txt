@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 28' test cases in the current suite                                        
+                                     Test Method: 'tests.RegistrationTest.testRegisterWithUnMatchedPassword'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:27.0242 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:28.0099 PM
+[ReportManager] Get text "Create New Customer Account" from "By.cssSelector: span.base". @20-09-2024 14:52:28.0258 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:28.0378 PM
+[ReportManager] Type "Ahmed" into "First Name*". @20-09-2024 14:52:28.0443 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:28.0560 PM
+[ReportManager] Type "Ibrahim" into "Last Name*". @20-09-2024 14:52:28.0633 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:28.0758 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:28.0852 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:28.0972 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:29.0061 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:29.0159 PM
+[ReportManager] Type "gen@10" into "Confirm Password*". @20-09-2024 14:52:29.0224 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:29.0401 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:29.0448 PM
+[ReportManager] Get text "Please enter the same value again." from "By.id: password-confirmation-error". @20-09-2024 14:52:29.0500 PM

@@ -1,0 +1,31 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '26 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testChangePasswordWithEmptyFields'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:03.0799 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:04.0516 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:04.0778 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:59:04.0874 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:04.0986 PM
+[ReportManager] Type "gen@10203060" into "Password*". @20-09-2024 14:59:05.0070 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:05.0224 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:09.0246 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:09.0579 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:09.0621 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:09.0817 PM
+[ReportManager] Click "My Account". @20-09-2024 14:59:11.0219 PM
+[ReportManager] Get text "My Account" from "By.cssSelector: span.base". @20-09-2024 14:59:11.0436 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:11.0630 PM
+[ReportManager] Click "Change Password". @20-09-2024 14:59:12.0504 PM
+[ReportManager] Get text "Edit Account Information" from "By.cssSelector: span.base". @20-09-2024 14:59:12.0735 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:12.0912 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Save']". @20-09-2024 14:59:13.0000 PM
+[ReportManager] Get text "This is a required field." from "By.id: current-password-error". @20-09-2024 14:59:13.0068 PM
+[ReportManager] Get text "This is a required field." from "By.id: password-error". @20-09-2024 14:59:13.0132 PM
+[ReportManager] Get text "This is a required field." from "By.id: password-confirmation-error". @20-09-2024 14:59:13.0197 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:13.0360 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:13.0399 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:13.0598 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:59:14.0906 PM

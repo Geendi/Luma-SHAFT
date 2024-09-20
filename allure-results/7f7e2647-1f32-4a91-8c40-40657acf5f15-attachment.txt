@@ -1,0 +1,51 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '23 out of 28' test cases in the current suite                                       
+                                              Test Method: 'tests.CheckoutTest.testCheckoutAsUser'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:01.0317 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:58:03.0924 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:04.0112 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:58:04.0168 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:04.0282 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:58:04.0358 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:04.0532 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:58:06.0935 PM
+[ReportManager] Hover over " Men". @20-09-2024 14:58:07.0722 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:58:08.0444 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:08.0674 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:58:09.0549 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:09.0785 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:58:10.0541 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:10.0937 PM
+[ReportManager] Click "XS". @20-09-2024 14:58:11.0024 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:11.0202 PM
+[ReportManager] Click "Black". @20-09-2024 14:58:11.0307 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:11.0496 PM
+[ReportManager] Click "Add to Cart". @20-09-2024 14:58:11.0552 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:14.0995 PM
+[ReportManager] Click "shopping cart". @20-09-2024 14:58:17.0581 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:17.0900 PM
+[ReportManager] Click "Proceed to Checkout". @20-09-2024 14:58:20.0004 PM
+[ReportManager] Get text "Shipping Address" from "By.xpath: //div[normalize-space()='Shipping Address']". @20-09-2024 14:58:20.0589 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:20.0728 PM
+[ReportManager] Type "Street address" into "Street Address: Line 1". @20-09-2024 14:58:20.0835 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:20.0957 PM
+[ReportManager] Type "city" into "City*". @20-09-2024 14:58:21.0018 PM
+[ReportManager] Select "Alaska" from "State/Province*". @20-09-2024 14:58:21.0487 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:21.0613 PM
+[ReportManager] Type "123456" into "Zip/Postal Code*". @20-09-2024 14:58:21.0682 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:21.0822 PM
+[ReportManager] Type "123456789" into "Phone Number*". @20-09-2024 14:58:21.0898 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:22.0079 PM
+[ReportManager] Click "Fixed Flat Rate". @20-09-2024 14:58:22.0157 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:22.0343 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Next']". @20-09-2024 14:58:22.0396 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:23.0716 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:25.0109 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Place Order']". @20-09-2024 14:58:25.0164 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:28.0339 PM
+[ReportManager] Click "Change ". @20-09-2024 14:58:28.0451 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:28.0648 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:58:29.0634 PM

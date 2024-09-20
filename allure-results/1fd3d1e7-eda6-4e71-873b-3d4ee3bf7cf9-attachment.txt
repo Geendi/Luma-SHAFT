@@ -1,0 +1,27 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 28' test cases in the current suite                                        
+                                     Test Method: 'tests.RegistrationTest.testRegisterWithValidCredentials'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:08.0889 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:12.0245 PM
+[ReportManager] Get text "Create New Customer Account" from "By.cssSelector: span.base". @20-09-2024 14:52:12.0330 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:12.0499 PM
+[ReportManager] Type "Ahmed" into "First Name*". @20-09-2024 14:52:12.0582 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:12.0731 PM
+[ReportManager] Type "Ibrahim" into "Last Name*". @20-09-2024 14:52:12.0814 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:12.0962 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:13.0059 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:13.0201 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:13.0307 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:13.0419 PM
+[ReportManager] Type "gen@10203040" into "Confirm Password*". @20-09-2024 14:52:13.0502 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:13.0673 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:17.0040 PM
+[ReportManager] Get text "Thank you for registering with Main Website Store." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:52:17.0392 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:17.0576 PM
+[ReportManager] Click "Change ". @20-09-2024 14:52:17.0624 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:17.0843 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:52:19.0027 PM
+[ReportManager] Get text "You are signed out" from "By.cssSelector: span.base". @20-09-2024 14:52:19.0172 PM

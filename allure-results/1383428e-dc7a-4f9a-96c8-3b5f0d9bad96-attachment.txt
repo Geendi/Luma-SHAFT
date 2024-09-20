@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 28' test cases in the current suite                                        
+                                            Test Method: 'tests.LoginTest.testLoginWithWrongPassword'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:47.0893 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:48.0699 PM
+[ReportManager] Get text "Customer Login" from "By.cssSelector: span.base". @20-09-2024 14:52:48.0913 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:49.0015 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:49.0094 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:49.0206 PM
+[ReportManager] Type "gen@10" into "Password*". @20-09-2024 14:52:49.0274 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:49.0435 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:51.0357 PM
+[ReportManager] Get text "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:52:51.0697 PM

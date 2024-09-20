@@ -1,0 +1,13 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 28' test cases in the current suite                                        
+                                             Test Method: 'tests.LoginTest.testLoginWithEmptyFields'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:42.0789 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:43.0662 PM
+[ReportManager] Get text "Customer Login" from "By.cssSelector: span.base". @20-09-2024 14:52:43.0820 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:43.0986 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:44.0038 PM
+[ReportManager] Get text "This is a required field." from "By.id: email-error". @20-09-2024 14:52:44.0108 PM
+[ReportManager] Get text "This is a required field." from "By.id: pass-error". @20-09-2024 14:52:44.0173 PM

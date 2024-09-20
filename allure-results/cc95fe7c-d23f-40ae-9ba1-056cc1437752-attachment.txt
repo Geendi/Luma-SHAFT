@@ -1,0 +1,39 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '25 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testLoginWithOldPassAfterChangeIt'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:50.0286 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:58:51.0486 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:51.0736 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:58:51.0827 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:51.0930 PM
+[ReportManager] Type "gen@10203050" into "Password*". @20-09-2024 14:58:52.0010 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:52.0169 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:58:54.0464 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:54.0786 PM
+[ReportManager] Click "Change ". @20-09-2024 14:58:54.0858 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:55.0036 PM
+[ReportManager] Click "My Account". @20-09-2024 14:58:55.0900 PM
+[ReportManager] Get text "My Account" from "By.cssSelector: span.base". @20-09-2024 14:58:56.0125 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:56.0329 PM
+[ReportManager] Click "Change Password". @20-09-2024 14:58:57.0210 PM
+[ReportManager] Get text "Edit Account Information" from "By.cssSelector: span.base". @20-09-2024 14:58:57.0448 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:57.0561 PM
+[ReportManager] Type "gen@10203050" into "Current Password*". @20-09-2024 14:58:57.0654 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:57.0754 PM
+[ReportManager] Type "gen@10203060" into "New Password*". @20-09-2024 14:58:57.0854 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:58:57.0965 PM
+[ReportManager] Type "gen@10203060" into "Confirm New Password*". @20-09-2024 14:58:58.0051 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:58:58.0233 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Save']". @20-09-2024 14:59:00.0966 PM
+[ReportManager] Get text "You saved the account information." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:59:01.0317 PM
+[ReportManager] Get text "Customer Login" from "By.cssSelector: span.base". @20-09-2024 14:59:01.0365 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:01.0478 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:59:01.0577 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:01.0696 PM
+[ReportManager] Type "gen@10203050" into "Password*". @20-09-2024 14:59:01.0780 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:01.0942 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:03.0241 PM
+[ReportManager] Get text "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:59:03.0610 PM

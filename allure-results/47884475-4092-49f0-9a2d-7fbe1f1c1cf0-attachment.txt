@@ -1,0 +1,33 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 28' test cases in the current suite                                       
+                                          Test Method: 'tests.AddReviewTest.testAddProductReviewAsUser'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:58.0596 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:59.0437 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:59.0665 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:59.0779 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:59.0899 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:59.0978 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:00.0154 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:53:01.0595 PM
+[ReportManager] Hover over " Men". @20-09-2024 14:53:02.0449 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:53:03.0212 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:03.0446 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:53:04.0660 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:04.0872 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:53:06.0068 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:06.0320 PM
+[ReportManager] Click "Add Your Review". @20-09-2024 14:53:06.0382 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:53:06.0777 PM
+[ReportManager] Type "Test" into "Summary*". @20-09-2024 14:53:06.0842 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:53:06.0963 PM
+[ReportManager] Type "For testing" into "Review*". @20-09-2024 14:53:07.0070 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:07.0253 PM
+[ReportManager] Click "Submit Review". @20-09-2024 14:53:11.0547 PM
+[ReportManager] Get text "You submitted your review for moderation." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:53:12.0030 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:12.0206 PM
+[ReportManager] Click "Change ". @20-09-2024 14:53:12.0255 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:12.0462 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:53:13.0482 PM

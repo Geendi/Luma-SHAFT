@@ -1,0 +1,38 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.WishListTest.testAddItemToWishListAsGuest'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Hover over " Men". @20-09-2024 14:54:18.0794 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:54:19.0598 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:19.0815 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:54:21.0522 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:21.0751 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:54:24.0716 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:24.0916 PM
+[ReportManager] Click " ADD TO WISH LIST". @20-09-2024 14:54:26.0011 PM
+[ReportManager] Get text "You must login or register to add items to your wishlist." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:54:26.0392 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:26.0564 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:54:27.0315 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:27.0570 PM
+[ReportManager] Type "Ahmed" into "First Name*". @20-09-2024 14:54:27.0649 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:27.0774 PM
+[ReportManager] Type "Ibrahim" into "Last Name*". @20-09-2024 14:54:27.0851 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:27.0968 PM
+[ReportManager] Type "geen4@gmail.com" into "Email*". @20-09-2024 14:54:28.0052 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:28.0149 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:54:28.0243 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:28.0370 PM
+[ReportManager] Type "gen@10203040" into "Confirm Password*". @20-09-2024 14:54:28.0452 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:28.0610 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:54:32.0976 PM
+[ReportManager] Is element displayed " REMOVE THIS ITEM". @20-09-2024 14:54:34.0461 PM
+[ReportManager] Hover over " REMOVE THIS ITEM". @20-09-2024 14:54:35.0108 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:35.0267 PM
+[ReportManager] Click " REMOVE THIS ITEM". @20-09-2024 14:54:36.0875 PM
+[ReportManager] Get text "You have no items in your wish list." from "By.cssSelector: div.message.info.empty". @20-09-2024 14:54:37.0014 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:37.0182 PM
+[ReportManager] Click "Change ". @20-09-2024 14:54:37.0238 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:37.0465 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:54:39.0812 PM

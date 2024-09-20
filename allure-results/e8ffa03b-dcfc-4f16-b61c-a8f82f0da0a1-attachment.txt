@@ -1,0 +1,32 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '15 out of 28' test cases in the current suite                                       
+                                          Test Method: 'tests.WishListTest.testAddItemToWishListAsUser'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:40.0135 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:54:41.0873 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:42.0084 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:54:42.0173 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:54:42.0284 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:54:42.0372 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:42.0546 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:54:45.0231 PM
+[ReportManager] Hover over " Men". @20-09-2024 14:54:46.0006 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:54:46.0722 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:46.0910 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:54:48.0452 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:48.0816 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:54:51.0481 PM
+[ReportManager] Get text "Montana Wind Jacket" from "By.cssSelector: span.base". @20-09-2024 14:54:51.0740 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:51.0905 PM
+[ReportManager] Click " ADD TO WISH LIST". @20-09-2024 14:54:53.0646 PM
+[ReportManager] Get text "Montana Wind Jacket has been added to your Wish List. Click here to continue shopping." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:54:54.0027 PM
+[ReportManager] Hover over " REMOVE THIS ITEM". @20-09-2024 14:54:55.0340 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:55.0511 PM
+[ReportManager] Click " REMOVE THIS ITEM". @20-09-2024 14:54:57.0040 PM
+[ReportManager] Get text "You have no items in your wish list." from "By.cssSelector: div.message.info.empty". @20-09-2024 14:54:57.0178 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:57.0343 PM
+[ReportManager] Click "Change ". @20-09-2024 14:54:57.0452 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:54:57.0637 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:54:58.0729 PM

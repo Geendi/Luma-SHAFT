@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.LoginTest.testLoginWithWrongEmailCriteria'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:51.0878 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:52.0956 PM
+[ReportManager] Get text "Customer Login" from "By.cssSelector: span.base". @20-09-2024 14:52:53.0113 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:53.0237 PM
+[ReportManager] Type "gen" into "Email*". @20-09-2024 14:52:53.0297 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:53.0414 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:53.0516 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:53.0676 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:53.0739 PM
+[ReportManager] Get text "Please enter a valid email address (Ex: johndoe@domain.com)." from "By.id: email-error". @20-09-2024 14:52:53.0802 PM

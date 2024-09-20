@@ -1,0 +1,46 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '27 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongInputs'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:15.0220 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:16.0039 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:16.0341 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:59:16.0424 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:16.0529 PM
+[ReportManager] Type "gen@10203060" into "Password*". @20-09-2024 14:59:16.0617 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:16.0782 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:19.0276 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:19.0596 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:19.0632 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:19.0817 PM
+[ReportManager] Click "My Account". @20-09-2024 14:59:20.0867 PM
+[ReportManager] Get text "My Account" from "By.cssSelector: span.base". @20-09-2024 14:59:21.0036 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:21.0218 PM
+[ReportManager] Click "Change Password". @20-09-2024 14:59:22.0205 PM
+[ReportManager] Get text "Edit Account Information" from "By.cssSelector: span.base". @20-09-2024 14:59:22.0435 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:22.0557 PM
+[ReportManager] Type "gen@10203050" into "Current Password*". @20-09-2024 14:59:22.0652 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:22.0764 PM
+[ReportManager] Type "gen@10203060" into "New Password*". @20-09-2024 14:59:22.0854 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:22.0945 PM
+[ReportManager] Type "gen@10203060" into "Confirm New Password*". @20-09-2024 14:59:23.0024 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:23.0198 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Save']". @20-09-2024 14:59:24.0748 PM
+[ReportManager] Get text "The password doesn't match this account. Verify the password and try again." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:59:25.0190 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:25.0367 PM
+[ReportManager] Click "Change Password". @20-09-2024 14:59:25.0419 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:25.0531 PM
+[ReportManager] Type "gen@10203060" into "Current Password*". @20-09-2024 14:59:25.0622 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:25.0731 PM
+[ReportManager] Type "gen@10203040" into "New Password*". @20-09-2024 14:59:25.0824 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:25.0954 PM
+[ReportManager] Type "gen@10" into "Confirm New Password*". @20-09-2024 14:59:26.0017 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:26.0176 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Save']". @20-09-2024 14:59:26.0268 PM
+[ReportManager] Get text "Please enter the same value again." from "By.id: password-confirmation-error". @20-09-2024 14:59:26.0320 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:26.0488 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:26.0568 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:26.0769 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:59:28.0140 PM

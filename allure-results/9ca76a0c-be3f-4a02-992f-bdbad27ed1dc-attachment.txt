@@ -1,0 +1,23 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.AddReviewTest.testAddProductReviewAsGuest'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Hover over " Men". @20-09-2024 14:53:14.0303 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:53:15.0007 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:15.0206 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:53:16.0690 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:17.0056 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:53:19.0489 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:19.0884 PM
+[ReportManager] Click "Add Your Review". @20-09-2024 14:53:20.0011 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:53:20.0144 PM
+[ReportManager] Type "Ahmed" into "Nickname*". @20-09-2024 14:53:20.0236 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:53:20.0568 PM
+[ReportManager] Type "Test" into "Summary*". @20-09-2024 14:53:20.0631 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:53:20.0740 PM
+[ReportManager] Type "For testing" into "Review*". @20-09-2024 14:53:20.0822 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:20.0989 PM
+[ReportManager] Click "Submit Review". @20-09-2024 14:53:29.0158 PM
+[ReportManager] Get text "You submitted your review for moderation." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:53:29.0565 PM

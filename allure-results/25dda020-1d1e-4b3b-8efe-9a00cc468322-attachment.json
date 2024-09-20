@@ -1,0 +1,23 @@
+{
+  "searchQuery": "SHAFT_Engine",
+  "firstname" : "Ahmed",
+  "lastname" : "Ibrahim",
+  "email" : "gen31@gmail.com",
+  "email2" : "geen4@gmail.com",
+  "password" : "gen@10203040",
+  "newPassword" : "gen@10203050",
+  "secondNewPass" : "gen@10203060",
+  "wrongPass" : "gen@10",
+  "wrongEmail" : "genn@gmail.com",
+  "guestEmail" : "gennn@gmail.com",
+  "wrongEmailCriteria" : "gen",
+  "summary" : "Test",
+  "review" : "For testing",
+  "search" : "Montana Wind Jacket",
+  "searchSuggestion" : "Montana",
+  "address" : "Street address",
+  "city" : "city",
+  "state" : "Alaska",
+  "code" : "123456",
+  "phone" : "123456789"
+}

@@ -1,0 +1,21 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 28' test cases in the current suite                                        
+                                          Test Method: 'tests.LoginTest.testLoginWithValidCredentials'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:36.0864 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:38.0157 PM
+[ReportManager] Get text "Customer Login" from "By.cssSelector: span.base". @20-09-2024 14:52:38.0391 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:38.0546 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:52:38.0646 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:38.0762 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:38.0850 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:39.0025 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:52:40.0494 PM
+[ReportManager] Get text "Home Page" from "By.cssSelector: span.base". @20-09-2024 14:52:40.0671 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:40.0850 PM
+[ReportManager] Click "Change ". @20-09-2024 14:52:40.0927 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:41.0146 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:52:42.0450 PM
+[ReportManager] Get text "You are signed out" from "By.cssSelector: span.base". @20-09-2024 14:52:42.0606 PM

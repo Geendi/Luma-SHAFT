@@ -1,0 +1,35 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '28 out of 28' test cases in the current suite                                       
+                                   Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongCriteria'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:28.0452 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:29.0722 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:29.0985 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:59:30.0084 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:30.0202 PM
+[ReportManager] Type "gen@10203060" into "Password*". @20-09-2024 14:59:30.0294 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:30.0454 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:59:32.0178 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:32.0495 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:32.0534 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:32.0730 PM
+[ReportManager] Click "My Account". @20-09-2024 14:59:33.0558 PM
+[ReportManager] Get text "My Account" from "By.cssSelector: span.base". @20-09-2024 14:59:33.0786 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:33.0989 PM
+[ReportManager] Click "Change Password". @20-09-2024 14:59:35.0542 PM
+[ReportManager] Get text "Edit Account Information" from "By.cssSelector: span.base". @20-09-2024 14:59:35.0784 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:35.0894 PM
+[ReportManager] Type "gen@10203060" into "Current Password*". @20-09-2024 14:59:35.0976 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:36.0077 PM
+[ReportManager] Type "gen@10" into "New Password*". @20-09-2024 14:59:36.0161 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:59:36.0270 PM
+[ReportManager] Type "gen@10" into "Confirm New Password*". @20-09-2024 14:59:36.0336 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:36.0508 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Save']". @20-09-2024 14:59:36.0609 PM
+[ReportManager] Get text "Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." from "By.id: password-error". @20-09-2024 14:59:36.0670 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:36.0840 PM
+[ReportManager] Click "Change ". @20-09-2024 14:59:36.0872 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:59:37.0039 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:59:38.0503 PM

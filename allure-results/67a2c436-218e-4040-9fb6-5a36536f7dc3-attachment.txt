@@ -1,0 +1,18 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '19 out of 28' test cases in the current suite                                       
+                                      Test Method: 'tests.AddToCartTest.testAddItemToCartWithoutSelection'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Hover over " Men". @20-09-2024 14:55:29.0341 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:55:30.0007 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:30.0224 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:55:31.0031 PM
+[ReportManager] Get text "Jackets" from "By.cssSelector: span.base". @20-09-2024 14:55:31.0270 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:31.0444 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:55:32.0249 PM
+[ReportManager] Get text "Montana Wind Jacket" from "By.cssSelector: span.base". @20-09-2024 14:55:32.0491 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:32.0647 PM
+[ReportManager] Click "Add to Cart". @20-09-2024 14:55:32.0781 PM
+[ReportManager] Get text "This is a required field." from "By.id: super_attribute[143]-error". @20-09-2024 14:55:32.0851 PM
+[ReportManager] Get text "This is a required field." from "By.id: super_attribute[93]-error". @20-09-2024 14:55:32.0922 PM

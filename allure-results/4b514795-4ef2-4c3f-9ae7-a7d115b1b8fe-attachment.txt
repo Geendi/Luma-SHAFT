@@ -1,0 +1,11 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '16 out of 28' test cases in the current suite                                       
+                                              Test Method: 'tests.SearchTest.testSearchForProduct'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:55:03.0720 PM
+[ReportManager] Type "Montana Wind Jacket" into " Search". @20-09-2024 14:55:03.0871 PM
+[ReportManager] Key press "ENTER" against " Search". @20-09-2024 14:55:05.0901 PM
+[ReportManager] Get text "Search results for: 'Montana Wind Jacket'" from "By.cssSelector: span.base". @20-09-2024 14:55:06.0005 PM
+[ReportManager] Is element displayed "Montana Wind Jacket". @20-09-2024 14:55:06.0139 PM

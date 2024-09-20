@@ -1,0 +1,11 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '17 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.SearchTest.testSearchSuggestionForProduct'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:55:06.0268 PM
+[ReportManager] Type "Montana" into " Search". @20-09-2024 14:55:06.0345 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:07.0312 PM
+[ReportManager] Click "Montana Wind Jacket,M". @20-09-2024 14:55:08.0634 PM
+[ReportManager] Get text "Search results for: 'Montana Wind Jacket,M'" from "By.cssSelector: span.base". @20-09-2024 14:55:08.0872 PM

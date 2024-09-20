@@ -1,0 +1,38 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '20 out of 28' test cases in the current suite                                       
+                                                Test Method: 'tests.AddToCartTest.testUpdateCart'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Target URL: "https://magento.softwaretestingboard.com/" @20-09-2024 14:55:32.0928 PM
+[ReportManager] Initial URL: "https://magento.softwaretestingboard.com/montana-wind-jacket.html" @20-09-2024 14:55:32.0944 PM
+[ReportManager] Navigate to url "https://magento.softwaretestingboard.com/". @20-09-2024 14:55:33.0565 PM
+[ReportManager] Hover over " Men". @20-09-2024 14:55:34.0382 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:55:35.0115 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:35.0348 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:55:36.0056 PM
+[ReportManager] Get text "Jackets" from "By.cssSelector: span.base". @20-09-2024 14:55:36.0299 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:36.0489 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:55:37.0351 PM
+[ReportManager] Get text "Montana Wind Jacket" from "By.cssSelector: span.base". @20-09-2024 14:55:37.0588 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:37.0767 PM
+[ReportManager] Click "XS". @20-09-2024 14:55:37.0846 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:38.0045 PM
+[ReportManager] Click "Black". @20-09-2024 14:55:38.0107 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:38.0295 PM
+[ReportManager] Click "Add to Cart". @20-09-2024 14:55:38.0384 PM
+[ReportManager] Get text "You added Montana Wind Jacket to your shopping cart." from "By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']". @20-09-2024 14:55:40.0144 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:40.0311 PM
+[ReportManager] Click " My Cart 1 1items". @20-09-2024 14:55:40.0367 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:40.0578 PM
+[ReportManager] Click "View and Edit Cart". @20-09-2024 14:55:43.0859 PM
+[ReportManager] Get text "Montana Wind Jacket" from "By.xpath: //td[@class='col item']//strong[@class='product-item-name']". @20-09-2024 14:55:44.0151 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:55:44.0298 PM
+[ReportManager] Type "3" into "Qty". @20-09-2024 14:55:44.0346 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:44.0550 PM
+[ReportManager] Click "Update Shopping Cart". @20-09-2024 14:55:44.0661 PM
+[ReportManager] Get text "3" from "Qty". @20-09-2024 14:55:44.0728 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:44.0930 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:55:48.0201 PM
+[ReportManager] Click " Remove item". @20-09-2024 14:55:49.0807 PM
+[ReportManager] Get text "You have no items in your shopping cart." from "By.xpath: //p[normalize-space()='You have no items in your shopping cart.']". @20-09-2024 14:55:50.0029 PM

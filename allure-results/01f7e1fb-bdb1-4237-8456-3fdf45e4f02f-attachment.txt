@@ -1,0 +1,57 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '21 out of 28' test cases in the current suite                                       
+                                   Test Method: 'tests.CheckoutTest.testCheckoutAsUserWithEmptyShippingFields'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:18.0027 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:56:20.0557 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:56:20.0713 PM
+[ReportManager] Type "gen31@gmail.com" into "Email*". @20-09-2024 14:56:20.0806 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:56:20.0922 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:56:20.0980 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:21.0154 PM
+[ReportManager] Click "Sign In". @20-09-2024 14:56:24.0744 PM
+[ReportManager] Hover over " Men". @20-09-2024 14:56:25.0583 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:56:26.0321 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:26.0566 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:56:29.0773 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:29.0976 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:56:34.0005 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:34.0202 PM
+[ReportManager] Click "XS". @20-09-2024 14:56:34.0348 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:34.0543 PM
+[ReportManager] Click "Black". @20-09-2024 14:56:34.0618 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:34.0808 PM
+[ReportManager] Click "Add to Cart". @20-09-2024 14:56:34.0881 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:37.0114 PM
+[ReportManager] Click "shopping cart". @20-09-2024 14:56:41.0687 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:41.0875 PM
+[ReportManager] Click "Proceed to Checkout". @20-09-2024 14:56:43.0633 PM
+[ReportManager] Get text "Shipping Address" from "By.xpath: //div[normalize-space()='Shipping Address']". @20-09-2024 14:56:46.0702 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:47.0150 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:48.0564 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Next']". @20-09-2024 14:56:48.0608 PM
+[ReportManager] Get text "The shipping method is missing. Select the shipping method and try again." from "By.xpath: //span[@data-bind='text: errorValidationMessage()']". @20-09-2024 14:56:48.0674 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:48.0865 PM
+[ReportManager] Click "Fixed Flat Rate". @20-09-2024 14:56:48.0916 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:49.0080 PM
+[ReportManager] Click "By.xpath: //span[normalize-space()='Next']". @20-09-2024 14:56:49.0127 PM
+[ReportManager] Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[1]". @20-09-2024 14:56:49.0197 PM
+[ReportManager] Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[2]". @20-09-2024 14:56:49.0272 PM
+[ReportManager] Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[3]". @20-09-2024 14:56:49.0347 PM
+[ReportManager] Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[4]". @20-09-2024 14:56:49.0421 PM
+[ReportManager] Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[5]". @20-09-2024 14:56:49.0483 PM
+[ReportManager] Target URL: "https://magento.softwaretestingboard.com/" @20-09-2024 14:56:49.0484 PM
+[ReportManager] Initial URL: "https://magento.softwaretestingboard.com/checkout/#shipping" @20-09-2024 14:56:49.0496 PM
+[ReportManager] Navigate to url "https://magento.softwaretestingboard.com/". @20-09-2024 14:56:50.0532 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:50.0927 PM
+[ReportManager] Click " My Cart". @20-09-2024 14:56:50.0980 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:51.0192 PM
+[ReportManager] Click "View and Edit Cart". @20-09-2024 14:56:54.0421 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:54.0726 PM
+[ReportManager] Click " Remove item". @20-09-2024 14:56:56.0451 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:56.0728 PM
+[ReportManager] Click "Change ". @20-09-2024 14:56:56.0796 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:56:56.0994 PM
+[ReportManager] Click "Sign Out". @20-09-2024 14:56:58.0055 PM

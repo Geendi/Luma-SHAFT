@@ -1,0 +1,22 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 28' test cases in the current suite                                        
+                                    Test Method: 'tests.RegistrationTest.testRegisterWithWrongEmailCriteria'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:29.0686 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:30.0527 PM
+[ReportManager] Get text "Create New Customer Account" from "By.cssSelector: span.base". @20-09-2024 14:52:30.0725 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:30.0837 PM
+[ReportManager] Type "Ahmed" into "First Name*". @20-09-2024 14:52:30.0913 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:31.0027 PM
+[ReportManager] Type "Ibrahim" into "Last Name*". @20-09-2024 14:52:31.0093 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:31.0209 PM
+[ReportManager] Type "gen" into "Email*". @20-09-2024 14:52:31.0258 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:31.0367 PM
+[ReportManager] Type "gen@10203040" into "Password*". @20-09-2024 14:52:31.0459 PM
+[ReportManager] Text cleared Using Native Clear @20-09-2024 14:52:31.0588 PM
+[ReportManager] Type "gen@10203040" into "Confirm Password*". @20-09-2024 14:52:31.0675 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:31.0842 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:31.0920 PM
+[ReportManager] Get text "Please enter a valid email address (Ex: johndoe@domain.com)." from "By.id: email_address-error". @20-09-2024 14:52:31.0986 PM

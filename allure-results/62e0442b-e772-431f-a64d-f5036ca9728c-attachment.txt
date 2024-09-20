@@ -1,0 +1,1297 @@
+[INFO ] 2024-09-20 14:52:00.643 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.3.20240829[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:00.660 [] ReportManager - Checking for engine updates...
+[INFO ] 2024-09-20 14:52:00.696 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2024-09-20 14:52:00.714 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-09-20 14:52:00.725 [main] ReportManager - TestNG run detected...
+[INFO ] 2024-09-20 14:52:01.356 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:01.432 [main] ReportManager - Initializing Properties...
+[INFO ] 2024-09-20 14:52:01.630 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                         'tests.RegistrationTest.setUp'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:01.673 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:52:01.721 [] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-09-20 14:52:02.230 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:52:02.232 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:02.232 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[DEBUG] 2024-09-20 14:52:03.990 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-09-20 14:52:04.029 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[INFO ] 2024-09-20 14:52:04.823 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:04.836 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:52:04.839 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[DEBUG] 2024-09-20 14:52:04.845 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-09-20 14:52:04.847 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-09-20 14:52:04.848 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-09-20 14:52:04.849 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-09-20 14:52:04.849 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-09-20 14:52:04.849 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-09-20 14:52:04.852 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-09-20 14:52:04.853 [] headers - >> Accept: */*
+[DEBUG] 2024-09-20 14:52:04.853 [] headers - >> Host: api.github.com
+[DEBUG] 2024-09-20 14:52:04.853 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-09-20 14:52:04.853 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/22.0.1)
+[DEBUG] 2024-09-20 14:52:04.853 [] headers - >> Accept-Encoding: gzip,deflate
+[INFO ] 2024-09-20 14:52:04.868 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:52:04.900 [main] ReportManager - Initial URL: "about:blank"
+[DEBUG] 2024-09-20 14:52:05.195 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.202 [] wire -  << "Date: Fri, 20 Sep 2024 11:52:05 GMT[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.203 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.203 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.204 [] wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.204 [] wire -  << "ETag: W/"80dfcb9aabf23e82705ee9c01f0a833b49e7a33b9f68f1b42c7740863c73e050"[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.204 [] wire -  << "Last-Modified: Thu, 29 Aug 2024 16:46:16 GMT[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.204 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.205 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.205 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.205 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.206 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.206 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.207 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.207 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.207 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.208 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.208 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.208 [] wire -  << "Server: github.com[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.209 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.209 [] wire -  << "X-RateLimit-Remaining: 49[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.209 [] wire -  << "X-RateLimit-Reset: 1726833931[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.210 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.210 [] wire -  << "X-RateLimit-Used: 11[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.210 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.211 [] wire -  << "Content-Length: 966[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.211 [] wire -  << "X-GitHub-Request-Id: DF43:39B933:4CED702:4DD3505:66ED61E5[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.212 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-09-20 14:52:05.220 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-09-20 14:52:05.220 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-09-20 14:52:05.221 [] headers - << Date: Fri, 20 Sep 2024 11:52:05 GMT
+[DEBUG] 2024-09-20 14:52:05.221 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-09-20 14:52:05.221 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-09-20 14:52:05.222 [] headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-09-20 14:52:05.222 [] headers - << ETag: W/"80dfcb9aabf23e82705ee9c01f0a833b49e7a33b9f68f1b42c7740863c73e050"
+[DEBUG] 2024-09-20 14:52:05.223 [] headers - << Last-Modified: Thu, 29 Aug 2024 16:46:16 GMT
+[DEBUG] 2024-09-20 14:52:05.223 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-09-20 14:52:05.223 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-09-20 14:52:05.224 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-09-20 14:52:05.224 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-09-20 14:52:05.224 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-09-20 14:52:05.224 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-09-20 14:52:05.225 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-09-20 14:52:05.225 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-09-20 14:52:05.225 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-09-20 14:52:05.226 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-09-20 14:52:05.226 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-09-20 14:52:05.226 [] headers - << Server: github.com
+[DEBUG] 2024-09-20 14:52:05.226 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-09-20 14:52:05.227 [] headers - << X-RateLimit-Remaining: 49
+[DEBUG] 2024-09-20 14:52:05.227 [] headers - << X-RateLimit-Reset: 1726833931
+[DEBUG] 2024-09-20 14:52:05.227 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-09-20 14:52:05.227 [] headers - << X-RateLimit-Used: 11
+[DEBUG] 2024-09-20 14:52:05.228 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-09-20 14:52:05.228 [] headers - << Content-Length: 966
+[DEBUG] 2024-09-20 14:52:05.228 [] headers - << X-GitHub-Request-Id: DF43:39B933:4CED702:4DD3505:66ED61E5
+[DEBUG] 2024-09-20 14:52:05.272 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-09-20 14:52:05.273 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5][0x96][\r]k[0xdb]8[0x18][0xc7][0xbf][0x8a][0xf1][0x18][0x83]\,[0xbf][0xc4]I[0x1d][0xc3][0xd8]][0x97][0xee][0x95][0xb6]l-[0x1c][0xdc]6[0x82]l+[0xb6][0xae][0xb6][0xa4]IrJ[0x16][0xfa][0xdd][0xf7][0xc8]v"
+[DEBUG] 2024-09-20 14:52:06.351 [] wire -  << "Bcnio[0xde][0x8][0xc4][0x8a]"[0xfd][0x9e][0xc7][0xe9][0xf9]K[[0xbb][0x96][0xa5][0x1d][0xdb][0x85][0xd6]B[0xc5][0xae][0x8b][0x5]E9[0xd5]E[0x9d][0xa0][0x94]W[0xae]$[0x82]+[0xf7][0xaa][0xc0]+[0xfd][0xe6][0x83]{[0xf5][0xe6][0xaf]W[0xd7][0xcb][0xb3][0x8b][0xd7]o/[0xce][0xe0][0xaf][0x92]`E[0x94][0xeb][0x9f][0x4]3[0xdf][0xf3][0xc3][0x89]=[0xb6][0xb1]RD[0xab][0xe5][0xaf]c[0xba]-[0x11][0xd0][0xb5](9[0xce]z[0xe8][0xb6]S[0xfd]t[0xca][0x1d]~[0xfb][0x82][0xe1][0x8a][0x8c]K[0x9c][0x90][0xf2][0xe]b[0x15][0xba]*{[0x91][0xee][0x89]r\[0xe][0x8d]s7B[0x13][0x14]xA[0xe8]E[0xc1][0x1c]p4[0xb3][0xe3][0xbd]J R[0xad][0xb].[0xed]xk[0x97]<[0xa7][0xc][0xd4]o[0xe1][0xe]N5[0xe5]L}J[0xb8][0xfe][0xd2]M[0xb][0xfd]h[0x1e][0x5]Q0[0xb6][0x19][0xcf][0xc8][0xd2][0x90][0xec][0xf3][0xc5][0xf9][0xec]C5[0xf7].[0x16]g[0xe1][0xe5]u[0xbe][0xb9]\[0xbc]}n[0xb4]_c[0x8d]e_[0xfb][0xa6]s'P[0xad][0x88]L9[0xd3][0x84][0xe9]fy)s[0xfd][0xe9]d[0x16][0xbd]X?[0xf][0x81][0x90][0xcb][0x8e][0xd1][0x84]1[0x9a][0x1f][0xdb][0x1b][0x6][0xa6][0xdc][0xc3][0xd4][0x9f]NO![0xf9][0xa7][0xd3][0xc5][0x83]"b![0xfa][0x93]a[0xce][0x8a][0x97]%[0xbf][0x5]n[0xff]5[0xe][0xb7][0xe5][0xd1][0xd0][0xee][0x1e][0xb2][0x7]R[0x96][0xf][0x7][0x2]d[0xeb]r][0x10][0xd0][0x18]^[0xdd][0xec][0x93][0x9c][0xaa][0x87]v[0xfb][0xf1]T[0x1b][0xc0][0x16]DT[0x1a][0xd6][0xd6] [0x15],[0x97]$[0xfd]}[0xde]+[0xcb][0xe3][0xd0][0xe][0x1][0xc9][0xde]2[0xc8]s[0xdb]Tq[0xc3][0xae][0x13][0x95]J*[0x9a]]6D[0x90][0x3][0x10][0x80][0xb9][0xcc]1[0xa3][0xdf][0xf0]`0[0x80][0x14][0xf0][0x1a][0xdb][0x19][0x92]`[0x3][0x0][0x10]Y[0xc3]V[0x1f]Dj[0x9][WH[0xba][0xc6][0xe9][0xc6][0xc8](IJ[0xe8][0x1a][0xd6]h8[0xbd][0x87][0x2][0xb8][0xde][0x8][0x2][0xc5]w[0xca][0xb5]Y0[0xaa][0xc9][0x12]g[0x95]1[0x89][0x15].[0x15][0xb9][0xbb][0xef][0x3][0x1f][0xcf][0x96]7[0xb7][0x8b][0xcb][0x97][0xaf][0xc9][0xf5]L[0x85][0xef][0xaf][0xb2]w+[0x3][0xc0][0xf9][0xd2][0xb8][0x19]@z6[0x4];+'z[0x9][0x85]_QMU[0x1]#*[0xc]h`[0xfe][0xe7][0xf8]L[0x82][0xed]w[0x81][0xc7][0xb6][0x90][0xa4][0xb3][0xfc]}W*[0x9][0xd6][0xa0][0x3][0x86]Q[0xb6][0xf1];[0xc7][0x8b][0x9c]`~[0xed][0xcf][0xe2]p[0x1a][0x87][0xf3][0x0]-[0xea][0xa4][0x84]X?[0x18]5[0x8b][0xfd][0x99][0x19][0xd5][0xb9]|[0xfc][0xe9][0x8b]y[0x1][0x99][0xe0][0xb2][0xef][0xbf][0x8f]?[0x98][0xba][0xf9]}[0x13][0xfe]F[0xc5] l7[0xbf][0x8f]Mx[0xb6][0x81][0xb7][0xf2][0xc4][0xfa][0xbb][0xc0][0xfa][0x99][0xb2]^[0x16][0x98][0xe5]$[0xfb][0xcc]F[0xd6]i][0x9][0xb][0xe4]F9[0xe7]yIP*7Bs[0xa4])[0xbb][0x89][0xcd][0x97][0x83]o[0xd5]M[0xa5][0xac][0x95][0xe4][0x95][0xe5]#[0xdf]C[0x9e][0xa5]y[0xdb][0xf2][0xad]dc[0xfd][0x99][0x11]AX[0x86][0xc1]S-[0xca][0xac][0xdd]![0xfd][0xd0]Y$[0xea][0xb2][0x84]c[0xd9][0x9f][0xee][0x93][0x80][0xba]B[0x15]Oo[0xa8][0xe6]q[0xf7]tR.I[0x1b]z[0x8a][0xfc][0xa0][\r][\r][0xad][0x9][0xb4][0x6][0x87][0xe][0xbc][0x83][0xd0]X[0xe0][0xb4] [0xa8][0xc2]P[0x8e]H[0x94]5[0x9c]z*n~9[0xaa][0x96]dE%q[0xda][0xee]6[0xa1][0x9][\n]"
+[DEBUG] 2024-09-20 14:52:06.352 [] wire -  << "[0xdb]|&h[0xfa]+[0xd2][0xf1][0xe7][0x8f]M[0xe7]_8[0x1]3[0x9e][0xf6][0xb2][0x89]v[0xd9]4K4X[0x1d]?[0xfa]q:;=[0xe2][0xbd]0[0x9a]([0xcd][0xf2][0xdf]$[0xcc][0xc9]A&[\n]"
+[DEBUG] 2024-09-20 14:52:06.352 [] wire -  << "[0xee]t[0x8c][0xd6]U[0xf1][0x15][0xed][0x9a][0xf1][0xae][0xe1][0x18]i[0xda],B[0x14]L[0x90]o[0xb6]*[0xb4][0xcc]J[\r]V$[0xf0]M[0x1e][0xf7][0xfd][0xaa]a[0x9e][0xf3][0x2]'[0xf0]E[0xc9]Ol[0xff] [0xf8][0xcc][0xcc]g4z[0x5][0xf5][0xd0][0xd5]%[0xdc][0xb8]F[0xa3][0xf8][0xd1][0x95][0x4][0xc5]+[0xb0]$[0xf7][0x8b][0xfe][0x4]![0xd4]3V[0xb0][0xc1][0xf6][0xe6]f[0xee]tG[0xef]L[0xff][0xeb]>[\r][0xe7][0xf6][0x8e][0xb][0xae][0xc8]5.[0xc1][0xbb]k[0x6]f[0xeb][0x8f][0xed]?[0xfc][0xe6][0xe1][0xc0][0xc3][0x1b][0xdb]%[0xae]s[0xf0]sh[0x15][0x9c]K[0xc][0x8e][0x4]M[0xb8][0xe9][0xad][0xe0][0xa6][0x0]w9[0xd3]O[0xb0][0x84][0x99][0xd0][0x92][0xe0][0x3][0xa4]m[0x92][\r]Q[0xd0][0x7][0xa7]J[0x5][0xe7]ds+[0xe8]"[0x4]w[0xdf][0x1][0x8f]s[0xa6][0xe3][0x1a][0xc][0x0][0x0]"
+[DEBUG] 2024-09-20 14:52:06.352 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-09-20 14:52:06.525 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5c1ef9ef
+[DEBUG] 2024-09-20 14:52:06.525 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-09-20 14:52:07.779 [] ReportManager - You're using the latest engine version "8.3.20240829". 👍
+[INFO ] 2024-09-20 14:52:08.564 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:52:08.571 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:52:08.609 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 28' test cases in the current suite                                        
+                                     Test Method: 'tests.RegistrationTest.testRegisterWithValidCredentials'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:08.890 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:12.245 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:12.330 [main] ReportManager - Get text "Create New Customer Account" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:12.499 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:12.582 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:52:12.732 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:12.814 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:52:12.962 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:13.059 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:13.201 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:13.307 [main] ReportManager - Type "gen@10203040" into "Password*".
+[DEBUG] 2024-09-20 14:52:13.419 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:13.502 [main] ReportManager - Type "gen@10203040" into "Confirm Password*".
+[INFO ] 2024-09-20 14:52:13.673 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:17.040 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:17.392 [main] ReportManager - Get text "Thank you for registering with Main Website Store." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:52:17.576 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:17.624 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:52:17.843 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:19.028 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:52:19.173 [main] ReportManager - Get text "You are signed out" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:52:19.177 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegisterWithValidCredentials'
+[INFO ] 2024-09-20 14:52:19.177 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'tests.RegistrationTest.testRegisterWithValidCredentials'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:19.320 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 28' test cases in the current suite                                        
+                                    Test Method: 'tests.RegistrationTest.testRegisterWithExistingCredentials'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:19.491 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:20.655 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:20.791 [main] ReportManager - Get text "Create New Customer Account" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:20.922 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:20.995 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:52:21.120 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:21.198 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:52:21.326 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:21.431 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:21.565 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:21.657 [main] ReportManager - Type "gen@10203040" into "Password*".
+[DEBUG] 2024-09-20 14:52:21.783 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:21.874 [main] ReportManager - Type "gen@10203040" into "Confirm Password*".
+[INFO ] 2024-09-20 14:52:22.051 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:24.517 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:24.834 [main] ReportManager - Get text "There is already an account with this email address. If you are sure that it is your email address, click here to get your password and access your account." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:52:24.834 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegisterWithExistingCredentials'
+[INFO ] 2024-09-20 14:52:24.834 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.RegistrationTest.testRegisterWithExistingCredentials'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:24.834 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 28' test cases in the current suite                                        
+                                        Test Method: 'tests.RegistrationTest.testRegisterWithEmptyFields'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:25.016 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:26.294 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:26.434 [main] ReportManager - Get text "Create New Customer Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:52:26.621 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:26.743 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:26.807 [main] ReportManager - Get text "This is a required field." from "By.id: firstname-error".
+[INFO ] 2024-09-20 14:52:26.869 [main] ReportManager - Get text "This is a required field." from "By.id: lastname-error".
+[INFO ] 2024-09-20 14:52:26.933 [main] ReportManager - Get text "This is a required field." from "By.id: email_address-error".
+[INFO ] 2024-09-20 14:52:26.995 [main] ReportManager - Get text "This is a required field." from "By.id: password-error".
+[INFO ] 2024-09-20 14:52:27.056 [main] ReportManager - Get text "This is a required field." from "By.id: password-confirmation-error".
+[INFO ] 2024-09-20 14:52:27.057 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegisterWithEmptyFields'
+[INFO ] 2024-09-20 14:52:27.058 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                             Finished Execution of Test Method: 'tests.RegistrationTest.testRegisterWithEmptyFields'                             
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:27.062 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '4 out of 28' test cases in the current suite                                        
+                                     Test Method: 'tests.RegistrationTest.testRegisterWithUnMatchedPassword'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:27.242 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:28.099 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:28.258 [main] ReportManager - Get text "Create New Customer Account" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:28.378 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:28.443 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:52:28.560 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:28.633 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:52:28.758 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:28.852 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:28.973 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:29.061 [main] ReportManager - Type "gen@10203040" into "Password*".
+[DEBUG] 2024-09-20 14:52:29.159 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:29.224 [main] ReportManager - Type "gen@10" into "Confirm Password*".
+[DEBUG] 2024-09-20 14:52:29.357 [Finalizer] DefaultClientConnection - Connection 0.0.0.0:57155<->140.82.121.5:443 closed
+[INFO ] 2024-09-20 14:52:29.401 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:29.449 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:29.500 [main] ReportManager - Get text "Please enter the same value again." from "By.id: password-confirmation-error".
+[INFO ] 2024-09-20 14:52:29.502 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegisterWithUnMatchedPassword'
+[INFO ] 2024-09-20 14:52:29.502 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'tests.RegistrationTest.testRegisterWithUnMatchedPassword'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:29.506 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '5 out of 28' test cases in the current suite                                        
+                                    Test Method: 'tests.RegistrationTest.testRegisterWithWrongEmailCriteria'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:29.686 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:30.527 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:30.725 [main] ReportManager - Get text "Create New Customer Account" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:30.838 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:30.913 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:52:31.028 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:31.093 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:52:31.209 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:31.258 [main] ReportManager - Type "gen" into "Email*".
+[DEBUG] 2024-09-20 14:52:31.367 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:31.459 [main] ReportManager - Type "gen@10203040" into "Password*".
+[DEBUG] 2024-09-20 14:52:31.588 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:31.675 [main] ReportManager - Type "gen@10203040" into "Confirm Password*".
+[INFO ] 2024-09-20 14:52:31.844 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:31.920 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:52:31.986 [main] ReportManager - Get text "Please enter a valid email address (Ex: johndoe@domain.com)." from "By.id: email_address-error".
+[INFO ] 2024-09-20 14:52:31.988 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testRegisterWithWrongEmailCriteria'
+[INFO ] 2024-09-20 14:52:31.988 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.RegistrationTest.testRegisterWithWrongEmailCriteria'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:31.992 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                        'tests.RegistrationTest.tearDown'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:32.421 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:52:32.422 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:52:32.424 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                             'tests.LoginTest.setUp'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:32.426 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:52:32.939 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:52:32.941 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:32.942 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:52:34.074 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:34.076 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:52:34.077 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:52:34.079 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:52:34.095 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:52:36.608 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:52:36.612 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:52:36.617 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '6 out of 28' test cases in the current suite                                        
+                                          Test Method: 'tests.LoginTest.testLoginWithValidCredentials'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:36.864 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:38.157 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:38.391 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:38.546 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:38.646 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:38.762 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:38.850 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:52:39.025 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:40.494 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:40.671 [main] ReportManager - Get text "Home Page" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:52:40.851 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:40.928 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:52:41.146 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:42.451 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:52:42.606 [main] ReportManager - Get text "You are signed out" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:52:42.608 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithValidCredentials'
+[INFO ] 2024-09-20 14:52:42.608 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.LoginTest.testLoginWithValidCredentials'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:42.612 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '7 out of 28' test cases in the current suite                                        
+                                             Test Method: 'tests.LoginTest.testLoginWithEmptyFields'                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:42.789 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:43.662 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:43.821 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:52:43.986 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:44.038 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:44.108 [main] ReportManager - Get text "This is a required field." from "By.id: email-error".
+[INFO ] 2024-09-20 14:52:44.173 [main] ReportManager - Get text "This is a required field." from "By.id: pass-error".
+[INFO ] 2024-09-20 14:52:44.174 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithEmptyFields'
+[INFO ] 2024-09-20 14:52:44.174 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                  Finished Execution of Test Method: 'tests.LoginTest.testLoginWithEmptyFields'                                  
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:44.178 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '8 out of 28' test cases in the current suite                                        
+                                          Test Method: 'tests.LoginTest.testLoginWithUnregisteredEmail'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:44.359 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:45.097 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:45.346 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:45.470 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:45.570 [main] ReportManager - Type "genn@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:45.689 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:45.764 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:52:45.925 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:47.320 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:47.702 [main] ReportManager - Get text "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:52:47.703 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithUnregisteredEmail'
+[INFO ] 2024-09-20 14:52:47.703 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.LoginTest.testLoginWithUnregisteredEmail'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:47.716 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '9 out of 28' test cases in the current suite                                        
+                                            Test Method: 'tests.LoginTest.testLoginWithWrongPassword'                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:47.893 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:48.699 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:48.913 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:49.015 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:49.094 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:49.206 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:49.275 [main] ReportManager - Type "gen@10" into "Password*".
+[INFO ] 2024-09-20 14:52:49.435 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:51.358 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:51.697 [main] ReportManager - Get text "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:52:51.699 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithWrongPassword'
+[INFO ] 2024-09-20 14:52:51.699 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                 Finished Execution of Test Method: 'tests.LoginTest.testLoginWithWrongPassword'                                 
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:51.702 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '10 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.LoginTest.testLoginWithWrongEmailCriteria'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:51.878 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:52.956 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:53.113 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:52:53.237 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:53.297 [main] ReportManager - Type "gen" into "Email*".
+[DEBUG] 2024-09-20 14:52:53.414 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:53.516 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:52:53.676 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:53.739 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:52:53.802 [main] ReportManager - Get text "Please enter a valid email address (Ex: johndoe@domain.com)." from "By.id: email-error".
+[INFO ] 2024-09-20 14:52:53.803 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithWrongEmailCriteria'
+[INFO ] 2024-09-20 14:52:53.803 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.LoginTest.testLoginWithWrongEmailCriteria'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:53.805 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                           'tests.LoginTest.tearDown'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:54.195 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:52:54.197 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:52:54.197 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                           'tests.AddReviewTest.setUp'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:54.197 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:52:54.712 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:52:54.712 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:54.712 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:52:55.830 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:52:55.831 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:52:55.832 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:52:56.602 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:52:56.617 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:52:58.310 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:52:58.315 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:52:58.322 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '11 out of 28' test cases in the current suite                                       
+                                          Test Method: 'tests.AddReviewTest.testAddProductReviewAsUser'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:52:58.596 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:52:59.437 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:52:59.665 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:59.779 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:52:59.899 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:52:59.978 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:53:00.155 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:01.595 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:53:02.449 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:53:03.212 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:53:03.446 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:04.660 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:53:04.872 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:06.068 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:53:06.320 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:06.382 [main] ReportManager - Click "Add Your Review".
+[DEBUG] 2024-09-20 14:53:06.777 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:53:06.842 [main] ReportManager - Type "Test" into "Summary*".
+[DEBUG] 2024-09-20 14:53:06.963 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:53:07.070 [main] ReportManager - Type "For testing" into "Review*".
+[INFO ] 2024-09-20 14:53:07.253 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:11.547 [main] ReportManager - Click "Submit Review".
+[INFO ] 2024-09-20 14:53:12.030 [main] ReportManager - Get text "You submitted your review for moderation." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:53:12.206 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:12.255 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:53:12.462 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:13.482 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:53:13.486 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddProductReviewAsUser'
+[INFO ] 2024-09-20 14:53:13.486 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.AddReviewTest.testAddProductReviewAsUser'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:13.492 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '12 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.AddReviewTest.testAddProductReviewAsGuest'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:14.303 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:53:15.007 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:53:15.206 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:16.691 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:53:17.056 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:19.489 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:53:19.884 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:20.011 [main] ReportManager - Click "Add Your Review".
+[DEBUG] 2024-09-20 14:53:20.144 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:53:20.237 [main] ReportManager - Type "Ahmed" into "Nickname*".
+[DEBUG] 2024-09-20 14:53:20.568 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:53:20.631 [main] ReportManager - Type "Test" into "Summary*".
+[DEBUG] 2024-09-20 14:53:20.741 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:53:20.822 [main] ReportManager - Type "For testing" into "Review*".
+[INFO ] 2024-09-20 14:53:20.990 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:29.159 [main] ReportManager - Click "Submit Review".
+[INFO ] 2024-09-20 14:53:29.565 [main] ReportManager - Get text "You submitted your review for moderation." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:53:29.568 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddProductReviewAsGuest'
+[INFO ] 2024-09-20 14:53:29.568 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.AddReviewTest.testAddProductReviewAsGuest'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:29.573 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 28' test cases in the current suite                                       
+                                     Test Method: 'tests.AddReviewTest.testAddProductReviewWithEmptyFields'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:30.254 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:53:30.968 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:53:31.172 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:32.641 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:53:32.932 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:34.466 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:53:34.876 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:34.937 [main] ReportManager - Click "Add Your Review".
+[INFO ] 2024-09-20 14:53:35.126 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:53:35.192 [main] ReportManager - Click "Submit Review".
+[INFO ] 2024-09-20 14:53:35.261 [main] ReportManager - Get text "Please select one of each of the ratings above." from "By.id: ratings[4]-error".
+[INFO ] 2024-09-20 14:53:35.317 [main] ReportManager - Get text "This is a required field." from "By.id: nickname_field-error".
+[INFO ] 2024-09-20 14:53:35.369 [main] ReportManager - Get text "This is a required field." from "By.id: summary_field-error".
+[INFO ] 2024-09-20 14:53:35.431 [main] ReportManager - Get text "This is a required field." from "By.id: review_field-error".
+[INFO ] 2024-09-20 14:53:35.432 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddProductReviewWithEmptyFields'
+[INFO ] 2024-09-20 14:53:35.432 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'tests.AddReviewTest.testAddProductReviewWithEmptyFields'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:35.436 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                         'tests.AddReviewTest.tearDown'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:35.844 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:53:35.846 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:53:35.847 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                           'tests.WishListTest.setUp'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:53:35.848 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:53:36.366 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:53:36.368 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:53:36.369 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:53:37.502 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:53:37.505 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:53:37.506 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:53:37.509 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:53:37.525 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:54:17.924 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:54:17.926 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:54:17.931 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '14 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.WishListTest.testAddItemToWishListAsGuest'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:18.794 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:54:19.599 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:54:19.815 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:21.523 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:54:21.752 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:24.716 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:54:24.916 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:26.011 [main] ReportManager - Click " ADD TO WISH LIST".
+[INFO ] 2024-09-20 14:54:26.392 [main] ReportManager - Get text "You must login or register to add items to your wishlist." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:54:26.564 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:27.315 [main] ReportManager - Click "Create an Account".
+[DEBUG] 2024-09-20 14:54:27.570 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:27.649 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:54:27.774 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:27.851 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:54:27.968 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:28.052 [main] ReportManager - Type "geen4@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:54:28.149 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:28.243 [main] ReportManager - Type "gen@10203040" into "Password*".
+[DEBUG] 2024-09-20 14:54:28.370 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:28.454 [main] ReportManager - Type "gen@10203040" into "Confirm Password*".
+[INFO ] 2024-09-20 14:54:28.610 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:32.976 [main] ReportManager - Click "Create an Account".
+[INFO ] 2024-09-20 14:54:34.461 [main] ReportManager - Is element displayed " REMOVE THIS ITEM".
+[INFO ] 2024-09-20 14:54:35.108 [main] ReportManager - Hover over " REMOVE THIS ITEM".
+[INFO ] 2024-09-20 14:54:35.267 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:36.875 [main] ReportManager - Click " REMOVE THIS ITEM".
+[INFO ] 2024-09-20 14:54:37.014 [main] ReportManager - Get text "You have no items in your wish list." from "By.cssSelector: div.message.info.empty".
+[INFO ] 2024-09-20 14:54:37.182 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:37.238 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:54:37.465 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:39.812 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:54:39.813 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddItemToWishListAsGuest'
+[INFO ] 2024-09-20 14:54:39.814 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.WishListTest.testAddItemToWishListAsGuest'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:39.822 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '15 out of 28' test cases in the current suite                                       
+                                          Test Method: 'tests.WishListTest.testAddItemToWishListAsUser'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:40.136 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:41.874 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:54:42.084 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:42.173 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:54:42.284 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:54:42.372 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:54:42.546 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:45.231 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:54:46.006 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:54:46.722 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:54:46.910 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:48.452 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:54:48.816 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:51.481 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:54:51.740 [main] ReportManager - Get text "Montana Wind Jacket" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:54:51.905 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:53.646 [main] ReportManager - Click " ADD TO WISH LIST".
+[INFO ] 2024-09-20 14:54:54.027 [main] ReportManager - Get text "Montana Wind Jacket has been added to your Wish List. Click here to continue shopping." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:54:55.340 [main] ReportManager - Hover over " REMOVE THIS ITEM".
+[INFO ] 2024-09-20 14:54:55.511 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:57.040 [main] ReportManager - Click " REMOVE THIS ITEM".
+[INFO ] 2024-09-20 14:54:57.178 [main] ReportManager - Get text "You have no items in your wish list." from "By.cssSelector: div.message.info.empty".
+[INFO ] 2024-09-20 14:54:57.344 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:57.452 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:54:57.637 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:54:58.729 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:54:58.731 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddItemToWishListAsUser'
+[INFO ] 2024-09-20 14:54:58.731 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                               Finished Execution of Test Method: 'tests.WishListTest.testAddItemToWishListAsUser'                               
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:58.734 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                          'tests.WishListTest.tearDown'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:59.172 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:54:59.174 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:54:59.175 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                            'tests.SearchTest.setUp'                                                            
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:54:59.176 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:54:59.688 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:54:59.689 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:54:59.690 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:55:00.966 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:55:00.968 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:55:00.970 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:55:00.972 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:55:00.989 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:55:03.543 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:55:03.545 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:55:03.549 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '16 out of 28' test cases in the current suite                                       
+                                              Test Method: 'tests.SearchTest.testSearchForProduct'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-09-20 14:55:03.720 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:55:03.871 [main] ReportManager - Type "Montana Wind Jacket" into " Search".
+[INFO ] 2024-09-20 14:55:05.902 [main] ReportManager - Key press "ENTER" against " Search".
+[INFO ] 2024-09-20 14:55:06.005 [main] ReportManager - Get text "Search results for: 'Montana Wind Jacket'" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:06.140 [main] ReportManager - Is element displayed "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:55:06.141 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testSearchForProduct'
+[INFO ] 2024-09-20 14:55:06.141 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'tests.SearchTest.testSearchForProduct'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:06.146 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '17 out of 28' test cases in the current suite                                       
+                                         Test Method: 'tests.SearchTest.testSearchSuggestionForProduct'                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[DEBUG] 2024-09-20 14:55:06.268 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:55:06.345 [main] ReportManager - Type "Montana" into " Search".
+[INFO ] 2024-09-20 14:55:07.312 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:08.634 [main] ReportManager - Click "Montana Wind Jacket,M".
+[INFO ] 2024-09-20 14:55:08.873 [main] ReportManager - Get text "Search results for: 'Montana Wind Jacket,M'" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:08.885 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testSearchSuggestionForProduct'
+[INFO ] 2024-09-20 14:55:08.885 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Finished Execution of Test Method: 'tests.SearchTest.testSearchSuggestionForProduct'                              
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:08.887 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                           'tests.SearchTest.tearDown'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:09.342 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:55:09.343 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:55:09.344 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                           'tests.AddToCartTest.setUp'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:09.347 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:55:09.857 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:55:09.858 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:55:09.859 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:55:10.986 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:55:10.988 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:55:10.989 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:55:10.991 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:55:11.007 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:55:14.996 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:55:14.998 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:55:15.002 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '18 out of 28' test cases in the current suite                                       
+                                               Test Method: 'tests.AddToCartTest.tesAddItemToCart'                                               
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:15.861 [main] ReportManager - Hover over "Men".
+[INFO ] 2024-09-20 14:55:16.670 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:55:16.895 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:18.191 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:55:18.310 [main] ReportManager - Get text "Jackets" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:18.500 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:19.732 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:55:19.800 [main] ReportManager - Get text "Montana Wind Jacket" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:20.003 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:20.086 [main] ReportManager - Click "XS".
+[INFO ] 2024-09-20 14:55:20.288 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:20.355 [main] ReportManager - Click "Black".
+[INFO ] 2024-09-20 14:55:20.539 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:20.599 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:55:22.726 [main] ReportManager - Get text "You added Montana Wind Jacket to your shopping cart." from "By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:55:22.906 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:22.963 [main] ReportManager - Click " My Cart 1 1items".
+[INFO ] 2024-09-20 14:55:23.170 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:26.530 [main] ReportManager - Click "View and Edit Cart".
+[INFO ] 2024-09-20 14:55:26.601 [main] ReportManager - Get text "Montana Wind Jacket" from "By.xpath: //td[@class='col item']//strong[@class='product-item-name']".
+[INFO ] 2024-09-20 14:55:26.782 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:28.551 [main] ReportManager - Click " Remove item".
+[INFO ] 2024-09-20 14:55:28.557 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tesAddItemToCart'
+[INFO ] 2024-09-20 14:55:28.557 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                    Finished Execution of Test Method: 'tests.AddToCartTest.tesAddItemToCart'                                    
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:28.564 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '19 out of 28' test cases in the current suite                                       
+                                      Test Method: 'tests.AddToCartTest.testAddItemToCartWithoutSelection'                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:29.341 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:55:30.007 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:55:30.224 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:31.031 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:55:31.270 [main] ReportManager - Get text "Jackets" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:31.444 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:32.249 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:55:32.491 [main] ReportManager - Get text "Montana Wind Jacket" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:32.647 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:32.781 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:55:32.851 [main] ReportManager - Get text "This is a required field." from "By.id: super_attribute[143]-error".
+[INFO ] 2024-09-20 14:55:32.922 [main] ReportManager - Get text "This is a required field." from "By.id: super_attribute[93]-error".
+[INFO ] 2024-09-20 14:55:32.923 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testAddItemToCartWithoutSelection'
+[INFO ] 2024-09-20 14:55:32.923 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                           Finished Execution of Test Method: 'tests.AddToCartTest.testAddItemToCartWithoutSelection'                           
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:32.927 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '20 out of 28' test cases in the current suite                                       
+                                                Test Method: 'tests.AddToCartTest.testUpdateCart'                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:32.928 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:55:32.944 [main] ReportManager - Initial URL: "https://magento.softwaretestingboard.com/montana-wind-jacket.html"
+[INFO ] 2024-09-20 14:55:33.565 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:55:34.382 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:55:35.115 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:55:35.348 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:36.056 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:55:36.299 [main] ReportManager - Get text "Jackets" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:36.489 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:37.351 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:55:37.588 [main] ReportManager - Get text "Montana Wind Jacket" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:55:37.767 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:37.846 [main] ReportManager - Click "XS".
+[INFO ] 2024-09-20 14:55:38.045 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:38.107 [main] ReportManager - Click "Black".
+[INFO ] 2024-09-20 14:55:38.295 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:38.384 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:55:40.144 [main] ReportManager - Get text "You added Montana Wind Jacket to your shopping cart." from "By.xpath: //div[@data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:55:40.311 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:40.367 [main] ReportManager - Click " My Cart 1 1items".
+[INFO ] 2024-09-20 14:55:40.578 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:43.859 [main] ReportManager - Click "View and Edit Cart".
+[INFO ] 2024-09-20 14:55:44.151 [main] ReportManager - Get text "Montana Wind Jacket" from "By.xpath: //td[@class='col item']//strong[@class='product-item-name']".
+[DEBUG] 2024-09-20 14:55:44.298 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:55:44.346 [main] ReportManager - Type "3" into "Qty".
+[INFO ] 2024-09-20 14:55:44.550 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:44.661 [main] ReportManager - Click "Update Shopping Cart".
+[INFO ] 2024-09-20 14:55:44.728 [main] ReportManager - Get text "3" from "Qty".
+[INFO ] 2024-09-20 14:55:44.930 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:48.201 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:55:49.808 [main] ReportManager - Click " Remove item".
+[INFO ] 2024-09-20 14:55:50.030 [main] ReportManager - Get text "You have no items in your shopping cart." from "By.xpath: //p[normalize-space()='You have no items in your shopping cart.']".
+[INFO ] 2024-09-20 14:55:50.031 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testUpdateCart'
+[INFO ] 2024-09-20 14:55:50.031 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                     Finished Execution of Test Method: 'tests.AddToCartTest.testUpdateCart'                                     
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:50.033 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                         'tests.AddToCartTest.tearDown'                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:50.428 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:55:50.429 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:55:50.430 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                           'tests.CheckoutTest.setUp'                                                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:55:50.431 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:55:50.944 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:55:50.945 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:55:50.945 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:55:52.117 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:55:52.118 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:55:52.119 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:55:52.121 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:55:52.136 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:56:17.789 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:56:17.792 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:56:17.797 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '21 out of 28' test cases in the current suite                                       
+                                   Test Method: 'tests.CheckoutTest.testCheckoutAsUserWithEmptyShippingFields'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:56:18.027 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:20.557 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:56:20.713 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:56:20.806 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:56:20.922 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:56:20.980 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:56:21.154 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:24.744 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:56:25.583 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:56:26.321 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:56:26.566 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:29.773 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:56:29.976 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:34.005 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:56:34.202 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:34.348 [main] ReportManager - Click "XS".
+[INFO ] 2024-09-20 14:56:34.543 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:34.618 [main] ReportManager - Click "Black".
+[INFO ] 2024-09-20 14:56:34.808 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:34.882 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:56:37.114 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:41.687 [main] ReportManager - Click "shopping cart".
+[INFO ] 2024-09-20 14:56:41.875 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:43.633 [main] ReportManager - Click "Proceed to Checkout".
+[INFO ] 2024-09-20 14:56:46.702 [main] ReportManager - Get text "Shipping Address" from "By.xpath: //div[normalize-space()='Shipping Address']".
+[INFO ] 2024-09-20 14:56:47.150 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:48.564 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:48.608 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Next']".
+[INFO ] 2024-09-20 14:56:48.674 [main] ReportManager - Get text "The shipping method is missing. Select the shipping method and try again." from "By.xpath: //span[@data-bind='text: errorValidationMessage()']".
+[INFO ] 2024-09-20 14:56:48.865 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:48.916 [main] ReportManager - Click "Fixed Flat Rate".
+[INFO ] 2024-09-20 14:56:49.080 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:49.127 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Next']".
+[INFO ] 2024-09-20 14:56:49.197 [main] ReportManager - Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[1]".
+[INFO ] 2024-09-20 14:56:49.272 [main] ReportManager - Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[2]".
+[INFO ] 2024-09-20 14:56:49.347 [main] ReportManager - Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[3]".
+[INFO ] 2024-09-20 14:56:49.421 [main] ReportManager - Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[4]".
+[INFO ] 2024-09-20 14:56:49.483 [main] ReportManager - Get text "This is a required field." from "By.xpath: (//span[@data-bind='text: element.error'][normalize-space()='This is a required field.'])[5]".
+[INFO ] 2024-09-20 14:56:49.484 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:56:49.496 [main] ReportManager - Initial URL: "https://magento.softwaretestingboard.com/checkout/#shipping"
+[INFO ] 2024-09-20 14:56:50.532 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:56:50.927 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:50.980 [main] ReportManager - Click " My Cart".
+[INFO ] 2024-09-20 14:56:51.192 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:54.421 [main] ReportManager - Click "View and Edit Cart".
+[INFO ] 2024-09-20 14:56:54.726 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:56.451 [main] ReportManager - Click " Remove item".
+[INFO ] 2024-09-20 14:56:56.728 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:56.796 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:56:56.994 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:56:58.055 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:56:58.058 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testCheckoutAsUserWithEmptyShippingFields'
+[INFO ] 2024-09-20 14:56:58.058 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'tests.CheckoutTest.testCheckoutAsUserWithEmptyShippingFields'                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:56:58.063 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '22 out of 28' test cases in the current suite                                       
+                                              Test Method: 'tests.CheckoutTest.testCheckoutAsGuest'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:56:58.831 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:56:59.495 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:56:59.714 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:42.287 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:57:42.729 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:43.550 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:57:43.946 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:44.081 [main] ReportManager - Click "XS".
+[INFO ] 2024-09-20 14:57:44.274 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:44.358 [main] ReportManager - Click "Black".
+[INFO ] 2024-09-20 14:57:44.551 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:44.611 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:57:46.961 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:48.518 [main] ReportManager - Click "shopping cart".
+[INFO ] 2024-09-20 14:57:49.009 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:50.840 [main] ReportManager - Click "Proceed to Checkout".
+[INFO ] 2024-09-20 14:57:51.483 [main] ReportManager - Get text "Shipping Address" from "By.xpath: //div[normalize-space()='Shipping Address']".
+[DEBUG] 2024-09-20 14:57:51.609 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:51.740 [main] ReportManager - Type "gennn@gmail.com" into "Email Address *".
+[DEBUG] 2024-09-20 14:57:51.858 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:51.930 [main] ReportManager - Type "Ahmed" into "First Name*".
+[DEBUG] 2024-09-20 14:57:52.039 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:52.112 [main] ReportManager - Type "Ibrahim" into "Last Name*".
+[DEBUG] 2024-09-20 14:57:52.231 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:52.324 [main] ReportManager - Type "Street address" into "Street Address: Line 1".
+[DEBUG] 2024-09-20 14:57:52.420 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:52.497 [main] ReportManager - Type "city" into "City*".
+[INFO ] 2024-09-20 14:57:53.094 [main] ReportManager - Select "Alaska" from "State/Province*".
+[DEBUG] 2024-09-20 14:57:53.212 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:53.284 [main] ReportManager - Type "123456" into "Zip/Postal Code*".
+[DEBUG] 2024-09-20 14:57:53.393 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:57:53.475 [main] ReportManager - Type "123456789" into "Phone Number*".
+[INFO ] 2024-09-20 14:57:53.656 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:53.764 [main] ReportManager - Click "Fixed Flat Rate".
+[INFO ] 2024-09-20 14:57:53.957 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:54.014 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Next']".
+[INFO ] 2024-09-20 14:57:56.746 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:58.118 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:57:58.161 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Place Order']".
+[INFO ] 2024-09-20 14:57:58.162 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testCheckoutAsGuest'
+[INFO ] 2024-09-20 14:57:58.162 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'tests.CheckoutTest.testCheckoutAsGuest'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:57:58.168 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '23 out of 28' test cases in the current suite                                       
+                                              Test Method: 'tests.CheckoutTest.testCheckoutAsUser'                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:01.317 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:03.924 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:58:04.112 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:04.168 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:58:04.282 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:04.358 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:58:04.532 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:06.935 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:58:07.722 [main] ReportManager - Hover over " Men".
+[INFO ] 2024-09-20 14:58:08.444 [main] ReportManager - Hover over " Tops".
+[INFO ] 2024-09-20 14:58:08.674 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:09.549 [main] ReportManager - Click "Jackets".
+[INFO ] 2024-09-20 14:58:09.785 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:10.541 [main] ReportManager - Click "Montana Wind Jacket".
+[INFO ] 2024-09-20 14:58:10.937 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:11.024 [main] ReportManager - Click "XS".
+[INFO ] 2024-09-20 14:58:11.202 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:11.307 [main] ReportManager - Click "Black".
+[INFO ] 2024-09-20 14:58:11.496 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:11.554 [main] ReportManager - Click "Add to Cart".
+[INFO ] 2024-09-20 14:58:14.995 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:17.581 [main] ReportManager - Click "shopping cart".
+[INFO ] 2024-09-20 14:58:17.900 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:20.004 [main] ReportManager - Click "Proceed to Checkout".
+[INFO ] 2024-09-20 14:58:20.589 [main] ReportManager - Get text "Shipping Address" from "By.xpath: //div[normalize-space()='Shipping Address']".
+[DEBUG] 2024-09-20 14:58:20.728 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:20.835 [main] ReportManager - Type "Street address" into "Street Address: Line 1".
+[DEBUG] 2024-09-20 14:58:20.957 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:21.018 [main] ReportManager - Type "city" into "City*".
+[INFO ] 2024-09-20 14:58:21.487 [main] ReportManager - Select "Alaska" from "State/Province*".
+[DEBUG] 2024-09-20 14:58:21.613 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:21.682 [main] ReportManager - Type "123456" into "Zip/Postal Code*".
+[DEBUG] 2024-09-20 14:58:21.822 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:21.898 [main] ReportManager - Type "123456789" into "Phone Number*".
+[INFO ] 2024-09-20 14:58:22.079 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:22.157 [main] ReportManager - Click "Fixed Flat Rate".
+[INFO ] 2024-09-20 14:58:22.343 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:22.397 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Next']".
+[INFO ] 2024-09-20 14:58:23.716 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:25.109 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:25.164 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Place Order']".
+[INFO ] 2024-09-20 14:58:28.339 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:28.451 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:58:28.648 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:29.634 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:58:29.637 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testCheckoutAsUser'
+[INFO ] 2024-09-20 14:58:29.638 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                   Finished Execution of Test Method: 'tests.CheckoutTest.testCheckoutAsUser'                                   
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:29.641 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                          'tests.CheckoutTest.tearDown'                                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:30.154 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:58:30.156 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:58:30.157 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                Starting execution of set up configuration method                                                
+                                                        'tests.ChangePasswordTest.setUp'                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:30.159 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-09-20 14:58:30.667 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: C:\Users\aibra\IdeaProjects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-09-20 14:58:30.667 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2024-09-20 14:58:30.668 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-09-20 14:58:32.032 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2024-09-20 14:58:32.034 [main] ReportManager - Loaded Test Data: "src/test/resources/testDataFiles/simpleJSON.json".
+[INFO ] 2024-09-20 14:58:32.035 [main] ReportManager - Successfully created attachment 'Test Data - JSON'
+[INFO ] 2024-09-20 14:58:32.037 [main] ReportManager - Target URL: "https://magento.softwaretestingboard.com/"
+[INFO ] 2024-09-20 14:58:32.047 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-09-20 14:58:33.833 [main] ReportManager - Navigate to url "https://magento.softwaretestingboard.com/".
+[INFO ] 2024-09-20 14:58:33.835 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: setUp'
+[INFO ] 2024-09-20 14:58:33.839 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '24 out of 28' test cases in the current suite                                       
+                                     Test Method: 'tests.ChangePasswordTest.testChangePasswordWithValidData'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:34.087 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:34.840 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:58:35.140 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:35.240 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:58:35.357 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:35.437 [main] ReportManager - Type "gen@10203040" into "Password*".
+[INFO ] 2024-09-20 14:58:35.603 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:37.532 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:58:37.831 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:37.914 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:58:38.127 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:39.118 [main] ReportManager - Click "My Account".
+[INFO ] 2024-09-20 14:58:39.352 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:58:39.546 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:40.471 [main] ReportManager - Click "Change Password".
+[INFO ] 2024-09-20 14:58:40.711 [main] ReportManager - Get text "Edit Account Information" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:58:40.828 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:40.921 [main] ReportManager - Type "gen@10203040" into "Current Password*".
+[DEBUG] 2024-09-20 14:58:41.041 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:41.135 [main] ReportManager - Type "gen@10203050" into "New Password*".
+[DEBUG] 2024-09-20 14:58:41.257 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:41.344 [main] ReportManager - Type "gen@10203050" into "Confirm New Password*".
+[INFO ] 2024-09-20 14:58:41.532 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:44.762 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:58:45.129 [main] ReportManager - Get text "You saved the account information." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:58:45.180 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:58:45.294 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:45.383 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:58:45.485 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:45.564 [main] ReportManager - Type "gen@10203050" into "Password*".
+[INFO ] 2024-09-20 14:58:45.726 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:47.627 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:58:47.855 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:58:48.022 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:48.124 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:58:48.320 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:49.921 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:58:49.922 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testChangePasswordWithValidData'
+[INFO ] 2024-09-20 14:58:49.924 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                          Finished Execution of Test Method: 'tests.ChangePasswordTest.testChangePasswordWithValidData'                          
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:49.929 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '25 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testLoginWithOldPassAfterChangeIt'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:58:50.286 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:51.486 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:58:51.736 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:51.827 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:58:51.930 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:52.010 [main] ReportManager - Type "gen@10203050" into "Password*".
+[INFO ] 2024-09-20 14:58:52.169 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:54.464 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:58:54.786 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:54.858 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:58:55.036 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:55.900 [main] ReportManager - Click "My Account".
+[INFO ] 2024-09-20 14:58:56.125 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:58:56.329 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:58:57.210 [main] ReportManager - Click "Change Password".
+[INFO ] 2024-09-20 14:58:57.448 [main] ReportManager - Get text "Edit Account Information" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:58:57.561 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:57.654 [main] ReportManager - Type "gen@10203050" into "Current Password*".
+[DEBUG] 2024-09-20 14:58:57.754 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:57.854 [main] ReportManager - Type "gen@10203060" into "New Password*".
+[DEBUG] 2024-09-20 14:58:57.965 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:58:58.051 [main] ReportManager - Type "gen@10203060" into "Confirm New Password*".
+[INFO ] 2024-09-20 14:58:58.233 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:00.966 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:59:01.317 [main] ReportManager - Get text "You saved the account information." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:59:01.365 [main] ReportManager - Get text "Customer Login" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:59:01.478 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:01.577 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:59:01.696 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:01.780 [main] ReportManager - Type "gen@10203050" into "Password*".
+[INFO ] 2024-09-20 14:59:01.942 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:03.241 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:59:03.610 [main] ReportManager - Get text "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:59:03.611 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testLoginWithOldPassAfterChangeIt'
+[INFO ] 2024-09-20 14:59:03.611 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.ChangePasswordTest.testLoginWithOldPassAfterChangeIt'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:03.615 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '26 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testChangePasswordWithEmptyFields'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:03.799 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:04.516 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:59:04.778 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:04.874 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:59:04.986 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:05.070 [main] ReportManager - Type "gen@10203060" into "Password*".
+[INFO ] 2024-09-20 14:59:05.224 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:09.246 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:59:09.579 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:09.621 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:09.817 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:11.219 [main] ReportManager - Click "My Account".
+[INFO ] 2024-09-20 14:59:11.436 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:59:11.630 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:12.504 [main] ReportManager - Click "Change Password".
+[INFO ] 2024-09-20 14:59:12.735 [main] ReportManager - Get text "Edit Account Information" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:59:12.912 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:13.000 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:59:13.068 [main] ReportManager - Get text "This is a required field." from "By.id: current-password-error".
+[INFO ] 2024-09-20 14:59:13.132 [main] ReportManager - Get text "This is a required field." from "By.id: password-error".
+[INFO ] 2024-09-20 14:59:13.197 [main] ReportManager - Get text "This is a required field." from "By.id: password-confirmation-error".
+[INFO ] 2024-09-20 14:59:13.360 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:13.399 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:13.598 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:14.906 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:59:14.909 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testChangePasswordWithEmptyFields'
+[INFO ] 2024-09-20 14:59:14.909 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.ChangePasswordTest.testChangePasswordWithEmptyFields'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:14.914 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '27 out of 28' test cases in the current suite                                       
+                                    Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongInputs'                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:15.220 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:16.039 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:59:16.341 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:16.424 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:59:16.529 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:16.617 [main] ReportManager - Type "gen@10203060" into "Password*".
+[INFO ] 2024-09-20 14:59:16.782 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:19.276 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:59:19.596 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:19.632 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:19.817 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:20.867 [main] ReportManager - Click "My Account".
+[INFO ] 2024-09-20 14:59:21.036 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:59:21.218 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:22.205 [main] ReportManager - Click "Change Password".
+[INFO ] 2024-09-20 14:59:22.435 [main] ReportManager - Get text "Edit Account Information" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:59:22.557 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:22.652 [main] ReportManager - Type "gen@10203050" into "Current Password*".
+[DEBUG] 2024-09-20 14:59:22.764 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:22.854 [main] ReportManager - Type "gen@10203060" into "New Password*".
+[DEBUG] 2024-09-20 14:59:22.945 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:23.024 [main] ReportManager - Type "gen@10203060" into "Confirm New Password*".
+[INFO ] 2024-09-20 14:59:23.198 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:24.748 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:59:25.190 [main] ReportManager - Get text "The password doesn't match this account. Verify the password and try again." from "By.cssSelector: div[data-bind='html: $parent.prepareMessageForHtml(message.text)']".
+[INFO ] 2024-09-20 14:59:25.367 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:25.420 [main] ReportManager - Click "Change Password".
+[DEBUG] 2024-09-20 14:59:25.531 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:25.622 [main] ReportManager - Type "gen@10203060" into "Current Password*".
+[DEBUG] 2024-09-20 14:59:25.731 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:25.824 [main] ReportManager - Type "gen@10203040" into "New Password*".
+[DEBUG] 2024-09-20 14:59:25.954 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:26.017 [main] ReportManager - Type "gen@10" into "Confirm New Password*".
+[INFO ] 2024-09-20 14:59:26.176 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:26.268 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:59:26.320 [main] ReportManager - Get text "Please enter the same value again." from "By.id: password-confirmation-error".
+[INFO ] 2024-09-20 14:59:26.488 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:26.569 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:26.769 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:28.141 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:59:28.144 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testChangePasswordWithWrongInputs'
+[INFO ] 2024-09-20 14:59:28.144 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                         Finished Execution of Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongInputs'                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:28.149 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '28 out of 28' test cases in the current suite                                       
+                                   Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongCriteria'                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:28.452 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:29.722 [main] ReportManager - Click "Sign In".
+[DEBUG] 2024-09-20 14:59:29.985 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:30.084 [main] ReportManager - Type "gen31@gmail.com" into "Email*".
+[DEBUG] 2024-09-20 14:59:30.202 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:30.294 [main] ReportManager - Type "gen@10203060" into "Password*".
+[INFO ] 2024-09-20 14:59:30.454 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:32.178 [main] ReportManager - Click "Sign In".
+[INFO ] 2024-09-20 14:59:32.495 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:32.534 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:32.730 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:33.558 [main] ReportManager - Click "My Account".
+[INFO ] 2024-09-20 14:59:33.786 [main] ReportManager - Get text "My Account" from "By.cssSelector: span.base".
+[INFO ] 2024-09-20 14:59:33.989 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:35.542 [main] ReportManager - Click "Change Password".
+[INFO ] 2024-09-20 14:59:35.784 [main] ReportManager - Get text "Edit Account Information" from "By.cssSelector: span.base".
+[DEBUG] 2024-09-20 14:59:35.894 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:35.976 [main] ReportManager - Type "gen@10203060" into "Current Password*".
+[DEBUG] 2024-09-20 14:59:36.077 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:36.161 [main] ReportManager - Type "gen@10" into "New Password*".
+[DEBUG] 2024-09-20 14:59:36.270 [main] ReportManager - Text cleared Using Native Clear
+[INFO ] 2024-09-20 14:59:36.336 [main] ReportManager - Type "gen@10" into "Confirm New Password*".
+[INFO ] 2024-09-20 14:59:36.508 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:36.609 [main] ReportManager - Click "By.xpath: //span[normalize-space()='Save']".
+[INFO ] 2024-09-20 14:59:36.670 [main] ReportManager - Get text "Minimum length of this field must be equal or greater than 8 symbols. Leading and trailing spaces will be ignored." from "By.id: password-error".
+[INFO ] 2024-09-20 14:59:36.840 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:36.872 [main] ReportManager - Click "Change ".
+[INFO ] 2024-09-20 14:59:37.039 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-09-20 14:59:38.503 [main] ReportManager - Click "Sign Out".
+[INFO ] 2024-09-20 14:59:38.505 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: testChangePasswordWithWrongCriteria'
+[INFO ] 2024-09-20 14:59:38.505 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                        Finished Execution of Test Method: 'tests.ChangePasswordTest.testChangePasswordWithWrongCriteria'                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:38.509 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                              Starting execution of tear down configuration method                                              
+                                                       'tests.ChangePasswordTest.tearDown'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:39.030 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-09-20 14:59:39.034 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: tearDown'
+[INFO ] 2024-09-20 14:59:39.034 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-09-20 14:59:39.034 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'

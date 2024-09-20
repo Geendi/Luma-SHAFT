@@ -1,0 +1,16 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 28' test cases in the current suite                                        
+                                        Test Method: 'tests.RegistrationTest.testRegisterWithEmptyFields'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:25.0015 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:26.0294 PM
+[ReportManager] Get text "Create New Customer Account" from "By.cssSelector: span.base". @20-09-2024 14:52:26.0434 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:52:26.0620 PM
+[ReportManager] Click "Create an Account". @20-09-2024 14:52:26.0743 PM
+[ReportManager] Get text "This is a required field." from "By.id: firstname-error". @20-09-2024 14:52:26.0807 PM
+[ReportManager] Get text "This is a required field." from "By.id: lastname-error". @20-09-2024 14:52:26.0869 PM
+[ReportManager] Get text "This is a required field." from "By.id: email_address-error". @20-09-2024 14:52:26.0933 PM
+[ReportManager] Get text "This is a required field." from "By.id: password-error". @20-09-2024 14:52:26.0995 PM
+[ReportManager] Get text "This is a required field." from "By.id: password-confirmation-error". @20-09-2024 14:52:27.0056 PM

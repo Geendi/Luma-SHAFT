@@ -1,0 +1,20 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Starting Execution: '13 out of 28' test cases in the current suite                                       
+                                     Test Method: 'tests.AddReviewTest.testAddProductReviewWithEmptyFields'                                     
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Hover over " Men". @20-09-2024 14:53:30.0254 PM
+[ReportManager] Hover over " Tops". @20-09-2024 14:53:30.0968 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:31.0172 PM
+[ReportManager] Click "Jackets". @20-09-2024 14:53:32.0641 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:32.0932 PM
+[ReportManager] Click "Montana Wind Jacket". @20-09-2024 14:53:34.0466 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:34.0876 PM
+[ReportManager] Click "Add Your Review". @20-09-2024 14:53:34.0937 PM
+[ReportManager] Moved the mouse to the middle of the element. @20-09-2024 14:53:35.0125 PM
+[ReportManager] Click "Submit Review". @20-09-2024 14:53:35.0192 PM
+[ReportManager] Get text "Please select one of each of the ratings above." from "By.id: ratings[4]-error". @20-09-2024 14:53:35.0261 PM
+[ReportManager] Get text "This is a required field." from "By.id: nickname_field-error". @20-09-2024 14:53:35.0317 PM
+[ReportManager] Get text "This is a required field." from "By.id: summary_field-error". @20-09-2024 14:53:35.0369 PM
+[ReportManager] Get text "This is a required field." from "By.id: review_field-error". @20-09-2024 14:53:35.0431 PM
