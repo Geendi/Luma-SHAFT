@@ -26,7 +26,6 @@ https://magento.softwaretestingboard.com/
 - *Login*
 - *Product Listings*
 - *Review*
-- *Review*
 - *Wishlist*
 - *Search*
 - *Cart*
